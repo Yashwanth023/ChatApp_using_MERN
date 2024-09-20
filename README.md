@@ -2,8 +2,6 @@
 
 This is a real-time chat application built using the MERN stack with Socket.io for real-time communication, TailwindCSS and Daisy UI for the front-end design, JWT for authentication, and Zustand for global state management.
 
-Here’s a more detailed explanation for the **Features** section:
-
 ---
 
 ### Features
@@ -29,41 +27,43 @@ Here’s a more detailed explanation for the **Features** section:
 - ⏳ **Additional Features**:  
   The app is designed to be highly extensible with features like real-time typing indicators, message read receipts, and push notifications, which can be added in future iterations to improve user experience.
 
+---
+
 ### Getting Started
 ## Prerequisites
-1.Node.js
-2.MongoDB
-3.Socket.io
+# 1.Node.js
+# 2.MongoDB
+# 3.Socket.io
+
+---
 
 ### Installation
-
-## Clone the repository:
-git clone https://github.com/yourusername/chat-app.git
+## Clone the repository
 
 ## Install the dependencies:
 cd chat-app
 npm install
 
 ## Setup the .env file with the following variables:
-PORT=...
-MONGO_DB_URI=...
-JWT_SECRET=...
-NODE_ENV=...
+# PORT=...
+# MONGO_DB_URI=...
+# JWT_SECRET=...
+# NODE_ENV=...
 
 ## Running the Application
-Start the backend server:
-nodemon server.js
+# Start the backend server:
+# nodemon server.js
 
 Start the frontend:
-npm start
+# npm start
 
 Open your browser and navigate to:
-bash
-Copy code
-http://localhost:3000
+# http://localhost:3000
+
+---
 
 ### Tech Stack
-1.Frontend: React, TailwindCSS, Daisy UI, Zustand
-2.Backend: Node.js, Express, MongoDB, Socket.io
-3.Authentication: JWT (JSON Web Tokens)
-4.Real-time Communication: Socket.io
+# 1.Frontend: React, TailwindCSS, Daisy UI, Zustand
+# 2.Backend: Node.js, Express, MongoDB, Socket.io
+# 3.Authentication: JWT (JSON Web Tokens)
+# 4.Real-time Communication: Socket.io
